@@ -185,9 +185,10 @@ section {
 
 .section__pic-container {
   display: flex;
-  height: 500px;
-  width: 500px;
+  height: 30rem;
+  width: 30rem;
   margin: auto 0;
+  justify-content: center;
 }
 
 .section__pic-container img {
