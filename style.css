@@ -298,17 +298,17 @@ section {
 }
 
 .section__pic-container {
-  width: 50%;
+  width: 40%;
 }
 
 .about-details-container {
-  width: 50%;
+  width: 60%;
 }
 
 .about-details-container {
-  justify-content: center;
-  flex-direction: column;
-  display: flex;
+  /* justify-content: center;
+  flex-direction: column; */
+  /* display: flex; */
 }
 
 .about-pic {
@@ -324,6 +324,64 @@ section {
 }
 
 .section-container {
-  gap: 4rem;
+  gap: 2rem;
   height: 80%;
+}
+
+/* Projects */
+#projects {
+  position: relative;
+}
+
+.projects_desc {
+  text-align: center;
+}
+
+.github-cards {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Contact */
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.contact-info-upper-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: rgb(53, 53, 0) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  background: rgb(250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact-info-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact-info-container p {
+  font-size: larger;
+}
+
+.contact-icon {
+  cursor: default;
+  height: 2rem;
+}
+
+.email-icon {
+  height: 2.5rem;
 }
