@@ -322,7 +322,7 @@ section {
 
 .section-container {
   gap: 2rem;
-  height: 80%;
+  height: fit-content;
 }
 
 /* Projects */
