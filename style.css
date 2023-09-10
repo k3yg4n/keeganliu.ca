@@ -303,12 +303,9 @@ section {
 
 .about-details-container {
   width: 60%;
-}
-
-.about-details-container {
-  /* justify-content: center;
-  flex-direction: column; */
-  /* display: flex; */
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
 }
 
 .about-pic {
