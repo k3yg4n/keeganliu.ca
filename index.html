@@ -13,7 +13,6 @@
       <div>
         <ul class="nav-links">
           <li><a href="#about">About Me</a></li>
-          <li><a href="#experience">Experience</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact Me</a></li>
         </ul>
@@ -29,7 +28,6 @@
         </div>
         <div class="menu-links">
           <li><a href="#about" onclick="toggleMenu()">About Me</a></li>
-          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
           <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
@@ -37,7 +35,11 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profilepic.jpg" alt="Keegan Liu profile picture" />
+        <img
+          src="./assets/profilepic.jpg"
+          alt="Keegan Liu profile picture"
+          class="profile_img"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hi there! I'm</p>
@@ -72,6 +74,57 @@
         </div>
       </div>
     </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/about_pic.jpg"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="slideshow"></div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              I am an enthusiastic Computer Engineering student who is currently
+              in their 2<sup>nd</sup> of studying at the University of Waterloo.
+              I have a keen interest in full-stack development and the rapidly
+              developing field of machine learning/AI applications. At the
+              moment, I am working towards becoming a professional engineer and
+              one day hope to develop applications that will positively impact
+              countless people all over the world.
+            </p>
+            <br />
+            <p>Some of my other hobbies include:</p>
+            <ul>
+              <li>Bouldering &#x1F9D7;</li>
+              <li>Hiking &#129406;</li>
+              <li>Cooking &#127859;</li>
+              <li>Playing Video Games &#127918;</li>
+              <li>Reading manga and other literature &#128218;</li>
+              <li>Petting cats! /ᐠ • ⩊ •マ</li>
+            </ul>
+            <br />
+            <p>
+              <b>Currently Reading:</b> <i>Empire of Pain</i> by Patrick Radden
+              Keefe
+            </p>
+            <p>
+              <b>Currently Watching:</b> <i>Breaking Bad</i> by Vince Gilligan
+            </p>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </div>
+    </section>
+
     <script src="script.js"></script>
   </body>
 </html>

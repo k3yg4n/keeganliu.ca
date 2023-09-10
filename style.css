@@ -21,6 +21,10 @@ p {
   color: rgb(85, 85, 85);
 }
 
+li {
+  color: rgb(85, 85, 85);
+}
+
 /* Transitions */
 
 a,
@@ -280,4 +284,46 @@ section {
 
 .btn-container {
   gap: 1.5rem;
+}
+
+/* About Section */
+
+#about {
+  position: relative;
+}
+
+.slideshow {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.section__pic-container {
+  width: 50%;
+}
+
+.about-details-container {
+  width: 50%;
+}
+
+.about-details-container {
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
+
+.about-pic {
+  border-radius: 2rem;
+  height: 400px;
+  width: 400px;
+}
+
+.arrow {
+  position: absolute;
+  right: -5rem;
+  bottom: 2.5rem;
+}
+
+.section-container {
+  gap: 4rem;
+  height: 80%;
 }
